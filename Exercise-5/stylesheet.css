@@ -1,0 +1,45 @@
+h1{
+  color:#666699;
+}
+h3{
+  color:#666699;
+  margin-top:-29px;
+}
+h5{
+  color:#ffffff;
+}
+body{
+  background-color:#000066;
+}
+.partone{
+  padding:2em;
+}
+.partwo{
+  padding:4em;
+}
+.flung{
+  position: absolute;
+  top:0;
+}
+.parthree{
+  padding:6em;
+}
+.partfour{
+  padding:8em;
+}
+.livid{
+  color:#e60000;
+}
+.partfive{
+  padding:10em;
+}
+.a{
+  font-size:50px;
+}
+.partsix{
+  padding:12em;
+}
+.tree{
+  font-size:10px;
+  padding:50em;
+}
