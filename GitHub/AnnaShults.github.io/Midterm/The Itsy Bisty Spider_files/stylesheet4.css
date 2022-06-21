@@ -1,0 +1,116 @@
+div.spider{
+  padding:10px;
+
+transition: margin-top 5s linear;
+}
+div.spider:hover{
+  margin-top:500px;
+}
+.button{
+  background-color:ECACFC;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position:absolute;
+  bottom:90px;
+  right:40px;
+}
+.title{
+  font-size: 100px;
+}
+.sub{
+  font-size:50px;
+}
+.linkp2{
+  position:absolute;
+  top:50vh;
+  bottom:5vh;
+  right:5vh;
+  background-color:ECACFC;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#spider1{
+  position:absolute;
+  top:30vh;
+  left:2vh;
+  animation-name:move-up;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+@keyframes move-up{
+  from{transform:translateY(0vh);}
+  to{transform:translatex(37vh);}
+
+}
+@keyframes move-down{
+  from{transform:translateY(10vh);}
+  to{transform:translateY(110vh);}
+}
+.linkp3{
+  position:absolute;
+  top:100px;
+  bottom:100px;
+  right:100px;
+  background-color:ECACFC;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+  #spider2{
+    position:absolute;
+    top:30vh;
+    left:10vh;
+  }
+    /* animation-name:move-up;
+    animation-duration:300ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+  .flex-container {
+    display: flex;
+    background-color:#476490;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 60px;
+    width:100%;
+    height:150px;
+  }
+  .swat{
+    font-size:65px;
+  }
+  #spider3{
+    position:absolute;
+    top:88vh;
+    left:40vh;
+  }
+  .endd{
+    font-family:'Brush Script MT',cursive;
+    font-size: 16px;
+  }
