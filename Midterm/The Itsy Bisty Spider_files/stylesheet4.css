@@ -14,7 +14,7 @@ div.spider:hover{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 50px;
+  font-size: 40px;
   margin: 4px 2px;
   cursor: pointer;
   position:absolute;
@@ -39,11 +39,9 @@ div.spider:hover{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 40px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  font-family:'Brush Script MT',cursive;
-  color:#ECACFC;
 }
 #spider1{
   position:absolute;
@@ -105,7 +103,7 @@ div.spider:hover{
     height:150px;
   }
   .swat{
-    font-size:50px;
+    font-size:65px;
   }
   #spider3{
     position:absolute;
