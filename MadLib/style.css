@@ -1,0 +1,27 @@
+body{
+  background-color:#a2a2d0;
+  font-family:'Brush Script MT',cursive;
+}
+#mad{
+  position: absolute;
+  top:350px;
+  font-size: 100px;
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  height:400px;
+  border:10px;
+  border-style:double;
+  background-color: #99ffd6;
+}
+
+.flex-container > div {
+  background-color: #99ffd6;
+  margin: 40px;
+  padding: 100px;
+  font-size: 60px;
+}
+#font{
+  font-size: 70px;
+}
